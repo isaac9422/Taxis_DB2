@@ -1,0 +1,26 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+nbbuild.xml
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/Modelo/nbproject/
+/Modelo/build/
+/Modelo/dist/
+/DAOImpl/nbproject/
+/DAOImpl/build/
+/DAOImpl/dist/
+/Util/build/
+/Util/nbproject/
+/Util/dist/
+/Ejecutador/nbproject/
+/Ejecutador/build/
+/Graficador/dist/
+/Graficador/nbproject/
+/Graficador/build/

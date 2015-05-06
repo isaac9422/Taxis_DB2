@@ -1,0 +1,1 @@
+select nombre as Nombre, escala as Tienda, sum(cantidad) as Cantidad, sum(precioVenta) as Ventas from (select PuntoVenta.nombre, escala, cantidad, precioVenta from movimiento inner join PuntoVenta on escala = idPuntoVenta) as joins group by escala, nombre order by escala

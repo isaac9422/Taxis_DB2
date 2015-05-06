@@ -1,0 +1,1 @@
+select plu, nombre, sum(cantidad) as transacciones, precioKilo, escala, sum(pesoVenta) as Kilos, sum(precioVenta) as Ventas from movimiento group by plu, nombre, precioKilo, escala order by plu, escala
